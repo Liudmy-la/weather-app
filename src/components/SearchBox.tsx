@@ -4,9 +4,9 @@ import { IoSearch } from "react-icons/io5";
 
 type Props = {
     className?: string;
-    value?: string;
-    onChange?: React.ChangeEventHandler<HTMLInputElement> | undefined;
-    onSubmit?: React.FormEventHandler<HTMLFormElement> | undefined
+    value: string;
+    onChange: React.ChangeEventHandler<HTMLInputElement> | undefined;
+    onSubmit: React.FormEventHandler<HTMLFormElement> | undefined
 }
 
 export default function SearchBox(props: Props) {
